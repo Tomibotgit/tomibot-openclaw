@@ -1,0 +1,95 @@
+# OpenClaw 配置文件
+config.yaml
+*.local.yaml
+secrets.yaml
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+logs/
+*.pid
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 缓存文件
+.cache/
+*.cache
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 密钥和敏感数据
+*.key
+*.pem
+*.crt
+*.cert
+private/
+secrets/
+
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+
+# 测试文件
+coverage/
+.nyc_output/
+
+# 构建输出
+dist/
+build/
+out/
+target/
+
+# 文档生成
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# 特定于 OpenClaw 的忽略项
+agents/*/workspace/.cache/
+agents/*/workspace/tmp/
+agents/*/workspace/logs/
+
+# 用户特定的忽略项（根据需要添加）
+# personal/
+# private/

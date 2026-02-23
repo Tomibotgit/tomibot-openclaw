@@ -1,0 +1,11 @@
+# Hyvor Relay 客户端依赖
+requests>=2.28.0
+python-dotenv>=0.21.0
+pydantic>=2.0.0
+typing-extensions>=4.5.0
+
+# 可选依赖（用于脚本）
+# flask>=2.0.0
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# prometheus-client>=0.17.0
